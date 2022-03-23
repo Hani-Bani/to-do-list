@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Patrick Hand', cursive;
+    margin: 15% 25%;
+    
+}
+
+h2 {
+    font-size: 2rem;
+    padding: .5em 0;
+    background: greenyellow ;
+    text-align: center;
+}
+
+form {
+    border: 1px solid coral;
+    background-color: coral;
+    height: 400px;
+    padding: 3%;
+}
+ul {
+    display: inline-block;
+}
+
+li {
+    font-family: 'Fredoka', sans-serif;
+    list-style: none;
+    height: 2em;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+}
+#add-btn{
+    font-size: 1em;
+    padding: 1em;
+}
+
+#add-btn, .del-btn {
+    background-color: aquamarine;
+    padding: .2em;
+    border-radius: 25%;
+    margin-left: .5em;
+    text-align: right;
+    font-family: 'Patrick Hand', cursive;    
+}
+input{
+    width: 85%;
+    padding: 1em; 
+    margin-bottom: 10px;
+    
+}
+.del-btn {
+    position: absolute;
+    right: 28%;
+    border: 1px solid black;
+    
+}
